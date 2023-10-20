@@ -23,4 +23,5 @@ urlpatterns = [
     path("juguetes/",juguetes),
     path("electronica/",electronica),
     path("ropa/",ropa),
+    path("motos/",moto)
 ]

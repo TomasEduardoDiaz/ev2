@@ -34,3 +34,14 @@ def ropa(request):
         'imagen':'imagenes/producto.jpg'
     }
     return render(request,'templatesProductos/productos.html',data)
+
+def moto(request):
+    data={
+        "titulo":"Motos",
+        'producto1':"yamaha",
+        'imagen':'imagenes/logo.png',
+        'producto2':"motorrad",
+        'producto3':"suzuki",
+        'imagen':'imagenes/suzuki.jpg',
+    }
+    return render(request,'templatesProductos/productos.html',data)
